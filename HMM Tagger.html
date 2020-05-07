@@ -13120,7 +13120,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Jupyter &quot;magic methods&quot; -- only need to be run once per kernel restart</span>
@@ -13136,7 +13136,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># import python modules -- this cell needs to be run again if you make changes to any of the files</span>
@@ -13179,7 +13179,7 @@ b100-35577
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">Dataset</span><span class="p">(</span><span class="s2">&quot;tags-universal.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;brown-universal.txt&quot;</span><span class="p">,</span> <span class="n">train_test_split</span><span class="o">=</span><span class="mf">0.8</span><span class="p">)</span>
@@ -13193,26 +13193,6 @@ b100-35577
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>There are 57340 sentences in the corpus.
-There are 45872 sentences in the training set.
-There are 11468 sentences in the testing set.
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -13264,7 +13244,7 @@ len(subset) == 2  # because there are two sentences</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">key</span> <span class="o">=</span> <span class="s1">&#39;b100-38532&#39;</span>
@@ -13274,28 +13254,6 @@ len(subset) == 2  # because there are two sentences</code></pre>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Sentence: b100-38532
-words:
-	(&#39;Perhaps&#39;, &#39;it&#39;, &#39;was&#39;, &#39;right&#39;, &#39;;&#39;, &#39;;&#39;)
-tags:
-	(&#39;ADV&#39;, &#39;PRON&#39;, &#39;VERB&#39;, &#39;ADJ&#39;, &#39;.&#39;, &#39;.&#39;)
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -13312,7 +13270,7 @@ tags:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;There are a total of </span><span class="si">{}</span><span class="s2"> samples of </span><span class="si">{}</span><span class="s2"> unique words in the corpus.&quot;</span>
@@ -13332,27 +13290,6 @@ tags:
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>There are a total of 1161192 samples of 56057 unique words in the corpus.
-There are 928458 samples of 50536 unique words in the training set.
-There are 232734 samples of 25112 unique words in the testing set.
-There are 5521 words in the test set that are missing in the training set.
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -13364,7 +13301,7 @@ There are 5521 words in the test set that are missing in the training set.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># accessing words with Dataset.X and tags with Dataset.Y </span>
@@ -13379,31 +13316,6 @@ There are 5521 words in the test set that are missing in the training set.
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Sentence 1: (&#39;Mr.&#39;, &#39;Podger&#39;, &#39;had&#39;, &#39;thanked&#39;, &#39;him&#39;, &#39;gravely&#39;, &#39;,&#39;, &#39;and&#39;, &#39;now&#39;, &#39;he&#39;, &#39;made&#39;, &#39;use&#39;, &#39;of&#39;, &#39;the&#39;, &#39;advice&#39;, &#39;.&#39;)
-
-Labels 1: (&#39;NOUN&#39;, &#39;NOUN&#39;, &#39;VERB&#39;, &#39;VERB&#39;, &#39;PRON&#39;, &#39;ADV&#39;, &#39;.&#39;, &#39;CONJ&#39;, &#39;ADV&#39;, &#39;PRON&#39;, &#39;VERB&#39;, &#39;NOUN&#39;, &#39;ADP&#39;, &#39;DET&#39;, &#39;NOUN&#39;, &#39;.&#39;)
-
-Sentence 2: (&#39;But&#39;, &#39;there&#39;, &#39;seemed&#39;, &#39;to&#39;, &#39;be&#39;, &#39;some&#39;, &#39;difference&#39;, &#39;of&#39;, &#39;opinion&#39;, &#39;as&#39;, &#39;to&#39;, &#39;how&#39;, &#39;far&#39;, &#39;the&#39;, &#39;board&#39;, &#39;should&#39;, &#39;go&#39;, &#39;,&#39;, &#39;and&#39;, &#39;whose&#39;, &#39;advice&#39;, &#39;it&#39;, &#39;should&#39;, &#39;follow&#39;, &#39;.&#39;)
-
-Labels 2: (&#39;CONJ&#39;, &#39;PRT&#39;, &#39;VERB&#39;, &#39;PRT&#39;, &#39;VERB&#39;, &#39;DET&#39;, &#39;NOUN&#39;, &#39;ADP&#39;, &#39;NOUN&#39;, &#39;ADP&#39;, &#39;ADP&#39;, &#39;ADV&#39;, &#39;ADV&#39;, &#39;DET&#39;, &#39;NOUN&#39;, &#39;VERB&#39;, &#39;VERB&#39;, &#39;.&#39;, &#39;CONJ&#39;, &#39;DET&#39;, &#39;NOUN&#39;, &#39;PRON&#39;, &#39;VERB&#39;, &#39;VERB&#39;, &#39;.&#39;)
-
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -13415,7 +13327,7 @@ Labels 2: (&#39;CONJ&#39;, &#39;PRT&#39;, &#39;VERB&#39;, &#39;PRT&#39;, &#39;VE
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># use Dataset.stream() (word, tag) samples for the entire corpus</span>
@@ -13426,33 +13338,6 @@ Labels 2: (&#39;CONJ&#39;, &#39;PRT&#39;, &#39;VERB&#39;, &#39;PRT&#39;, &#39;VE
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-Stream (word, tag) pairs:
-
-	 (&#39;Mr.&#39;, &#39;NOUN&#39;)
-	 (&#39;Podger&#39;, &#39;NOUN&#39;)
-	 (&#39;had&#39;, &#39;VERB&#39;)
-	 (&#39;thanked&#39;, &#39;VERB&#39;)
-	 (&#39;him&#39;, &#39;PRON&#39;)
-	 (&#39;gravely&#39;, &#39;ADV&#39;)
-	 (&#39;,&#39;, &#39;.&#39;)
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -13484,17 +13369,17 @@ Stream (word, tag) pairs:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">seqA</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="n">seqB</span> <span class="o">=</span> <span class="p">[]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">words</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">tags</span> <span class="o">=</span> <span class="p">[]</span>
 
 <span class="k">for</span> <span class="n">pair</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">stream</span><span class="p">():</span>
     <span class="k">if</span> <span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">vocab</span><span class="p">):</span>
         <span class="k">continue</span>
-    <span class="n">seqA</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-    <span class="n">seqB</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+    <span class="n">words</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="n">tags</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
 
 <span class="k">def</span> <span class="nf">pair_counts</span><span class="p">(</span><span class="n">sequences_A</span><span class="p">,</span> <span class="n">sequences_B</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Return a dictionary keyed to each unique value in the first sequence list</span>
@@ -13507,9 +13392,9 @@ Stream (word, tag) pairs:
 <span class="sd">    &quot;&quot;&quot;</span>
     
     <span class="n">t</span> <span class="o">=</span> <span class="p">{}</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">seqA</span><span class="p">)):</span>
-        <span class="n">tag</span> <span class="o">=</span> <span class="n">seqB</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-        <span class="n">word</span> <span class="o">=</span> <span class="n">seqA</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">sequences_A</span><span class="p">)):</span>
+        <span class="n">tag</span> <span class="o">=</span> <span class="n">sequences_B</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">word</span> <span class="o">=</span> <span class="n">sequences_A</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
         <span class="k">if</span><span class="p">(</span><span class="n">tag</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">t</span><span class="p">):</span>
             <span class="n">t</span><span class="p">[</span><span class="n">tag</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
         <span class="k">if</span><span class="p">(</span><span class="n">word</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">t</span><span class="p">[</span><span class="n">tag</span><span class="p">]):</span>
@@ -13520,7 +13405,7 @@ Stream (word, tag) pairs:
 
 
 <span class="c1"># Calculate C(t_i, w_i)</span>
-<span class="n">emission_counts</span> <span class="o">=</span> <span class="n">pair_counts</span><span class="p">(</span><span class="n">seqA</span><span class="p">,</span> <span class="n">seqB</span><span class="p">)</span>
+<span class="n">emission_counts</span> <span class="o">=</span> <span class="n">pair_counts</span><span class="p">(</span><span class="n">words</span><span class="p">,</span> <span class="n">tags</span><span class="p">)</span>
 
 <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">emission_counts</span><span class="p">)</span> <span class="o">==</span> <span class="mi">12</span><span class="p">,</span> \
        <span class="s2">&quot;Uh oh. There should be 12 tags in your dictionary.&quot;</span>
@@ -13530,25 +13415,6 @@ Stream (word, tag) pairs:
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[8]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div class="alert alert-block alert-success">Your emission counts look good!</div>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13564,7 +13430,7 @@ Stream (word, tag) pairs:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create a lookup table mfc_table where mfc_table[word] contains the tag label most frequently assigned to that word</span>
@@ -13584,17 +13450,7 @@ Stream (word, tag) pairs:
         <span class="sd">&quot;&quot;&quot;This method simplifies predictions by matching the Pomegranate viterbi() interface&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="mf">0.</span><span class="p">,</span> <span class="nb">list</span><span class="p">(</span><span class="nb">enumerate</span><span class="p">([</span><span class="s2">&quot;&lt;start&gt;&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">table</span><span class="p">[</span><span class="n">w</span><span class="p">]</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">seq</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;&lt;end&gt;&quot;</span><span class="p">]))</span>
 
-
-<span class="n">seqA</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="n">seqB</span> <span class="o">=</span> <span class="p">[]</span>
-
-<span class="k">for</span> <span class="n">pair</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">stream</span><span class="p">():</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">vocab</span><span class="p">):</span>
-        <span class="k">continue</span>
-    <span class="n">seqA</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
-    <span class="n">seqB</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-
-<span class="n">word_counts</span> <span class="o">=</span> <span class="n">pair_counts</span><span class="p">(</span><span class="n">seqA</span><span class="p">,</span> <span class="n">seqB</span><span class="p">)</span>
+<span class="n">word_counts</span> <span class="o">=</span> <span class="n">pair_counts</span><span class="p">(</span><span class="n">tags</span><span class="p">,</span> <span class="n">words</span><span class="p">)</span>
 
 <span class="n">mfc_table</span> <span class="o">=</span> <span class="p">{}</span>
 
@@ -13615,25 +13471,6 @@ Stream (word, tag) pairs:
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[9]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div class="alert alert-block alert-success">Your MFC tagger has all the correct words!</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -13645,7 +13482,7 @@ Stream (word, tag) pairs:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">replace_unknown</span><span class="p">(</span><span class="n">sequence</span><span class="p">):</span>
@@ -13675,7 +13512,7 @@ Stream (word, tag) pairs:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">testing_set</span><span class="o">.</span><span class="n">keys</span><span class="p">[:</span><span class="mi">3</span><span class="p">]:</span>
@@ -13692,56 +13529,6 @@ Stream (word, tag) pairs:
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Sentence Key: b100-28144
-
-Predicted labels:
------------------
-[&#39;CONJ&#39;, &#39;NOUN&#39;, &#39;NUM&#39;, &#39;.&#39;, &#39;NOUN&#39;, &#39;NUM&#39;, &#39;.&#39;, &#39;NOUN&#39;, &#39;NUM&#39;, &#39;.&#39;, &#39;CONJ&#39;, &#39;NOUN&#39;, &#39;NUM&#39;, &#39;.&#39;, &#39;.&#39;, &#39;NOUN&#39;, &#39;.&#39;, &#39;.&#39;]
-
-Actual labels:
---------------
-(&#39;CONJ&#39;, &#39;NOUN&#39;, &#39;NUM&#39;, &#39;.&#39;, &#39;NOUN&#39;, &#39;NUM&#39;, &#39;.&#39;, &#39;NOUN&#39;, &#39;NUM&#39;, &#39;.&#39;, &#39;CONJ&#39;, &#39;NOUN&#39;, &#39;NUM&#39;, &#39;.&#39;, &#39;.&#39;, &#39;NOUN&#39;, &#39;.&#39;, &#39;.&#39;)
-
-
-Sentence Key: b100-23146
-
-Predicted labels:
------------------
-[&#39;PRON&#39;, &#39;VERB&#39;, &#39;DET&#39;, &#39;NOUN&#39;, &#39;ADP&#39;, &#39;ADJ&#39;, &#39;ADJ&#39;, &#39;NOUN&#39;, &#39;VERB&#39;, &#39;VERB&#39;, &#39;.&#39;, &#39;ADP&#39;, &#39;VERB&#39;, &#39;DET&#39;, &#39;NOUN&#39;, &#39;ADP&#39;, &#39;NOUN&#39;, &#39;ADP&#39;, &#39;DET&#39;, &#39;NOUN&#39;, &#39;.&#39;]
-
-Actual labels:
---------------
-(&#39;PRON&#39;, &#39;VERB&#39;, &#39;DET&#39;, &#39;NOUN&#39;, &#39;ADP&#39;, &#39;ADJ&#39;, &#39;ADJ&#39;, &#39;NOUN&#39;, &#39;VERB&#39;, &#39;VERB&#39;, &#39;.&#39;, &#39;ADP&#39;, &#39;VERB&#39;, &#39;DET&#39;, &#39;NOUN&#39;, &#39;ADP&#39;, &#39;NOUN&#39;, &#39;ADP&#39;, &#39;DET&#39;, &#39;NOUN&#39;, &#39;.&#39;)
-
-
-Sentence Key: b100-35462
-
-Predicted labels:
------------------
-[&#39;DET&#39;, &#39;ADJ&#39;, &#39;NOUN&#39;, &#39;VERB&#39;, &#39;VERB&#39;, &#39;VERB&#39;, &#39;ADP&#39;, &#39;DET&#39;, &#39;ADJ&#39;, &#39;ADJ&#39;, &#39;NOUN&#39;, &#39;ADP&#39;, &#39;DET&#39;, &#39;ADJ&#39;, &#39;NOUN&#39;, &#39;.&#39;, &#39;ADP&#39;, &#39;ADJ&#39;, &#39;NOUN&#39;, &#39;.&#39;, &#39;CONJ&#39;, &#39;ADP&#39;, &#39;DET&#39;, &#39;&lt;MISSING&gt;&#39;, &#39;ADP&#39;, &#39;ADJ&#39;, &#39;ADJ&#39;, &#39;.&#39;, &#39;ADJ&#39;, &#39;.&#39;, &#39;CONJ&#39;, &#39;ADJ&#39;, &#39;NOUN&#39;, &#39;ADP&#39;, &#39;ADV&#39;, &#39;NOUN&#39;, &#39;.&#39;]
-
-Actual labels:
---------------
-(&#39;DET&#39;, &#39;ADJ&#39;, &#39;NOUN&#39;, &#39;VERB&#39;, &#39;VERB&#39;, &#39;VERB&#39;, &#39;ADP&#39;, &#39;DET&#39;, &#39;ADJ&#39;, &#39;ADJ&#39;, &#39;NOUN&#39;, &#39;ADP&#39;, &#39;DET&#39;, &#39;ADJ&#39;, &#39;NOUN&#39;, &#39;.&#39;, &#39;ADP&#39;, &#39;ADJ&#39;, &#39;NOUN&#39;, &#39;.&#39;, &#39;CONJ&#39;, &#39;ADP&#39;, &#39;DET&#39;, &#39;NOUN&#39;, &#39;ADP&#39;, &#39;ADJ&#39;, &#39;ADJ&#39;, &#39;.&#39;, &#39;ADJ&#39;, &#39;.&#39;, &#39;CONJ&#39;, &#39;ADJ&#39;, &#39;NOUN&#39;, &#39;ADP&#39;, &#39;ADJ&#39;, &#39;NOUN&#39;, &#39;.&#39;)
-
-
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -13753,7 +13540,7 @@ Actual labels:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">accuracy</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">,</span> <span class="n">model</span><span class="p">):</span>
@@ -13798,7 +13585,7 @@ Actual labels:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mfc_training_acc</span> <span class="o">=</span> <span class="n">accuracy</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">X</span><span class="p">,</span> <span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">Y</span><span class="p">,</span> <span class="n">mfc_model</span><span class="p">)</span>
@@ -13813,37 +13600,6 @@ Actual labels:
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>training accuracy mfc_model: 95.71%
-testing accuracy mfc_model: 93.13%
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[13]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div class="alert alert-block alert-success">Your MFC tagger accuracy looks correct!</div>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13870,19 +13626,10 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">seqA</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1">#word</span>
-<span class="n">seqB</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1">#tag</span>
-
-<span class="k">for</span> <span class="n">pair</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">stream</span><span class="p">():</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">vocab</span><span class="p">):</span>
-        <span class="k">continue</span>
-    <span class="n">seqA</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-    <span class="n">seqB</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
-
-<span class="k">def</span> <span class="nf">unigram_counts</span><span class="p">(</span><span class="n">sequences</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">unigram_counts</span><span class="p">(</span><span class="n">sequences</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Return a dictionary keyed to each unique value in the input sequence list that</span>
 <span class="sd">    counts the number of occurrences of the value in the sequences list. The sequences</span>
 <span class="sd">    collection should be a 2-dimensional array.</span>
@@ -13898,8 +13645,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
         <span class="n">t</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span><span class="o">+</span><span class="mi">1</span>
     <span class="k">return</span> <span class="n">t</span>
 
-<span class="c1"># TODO: call unigram_counts with a list of tag sequences from the training set</span>
-<span class="n">tag_unigrams</span> <span class="o">=</span> <span class="n">unigram_counts</span><span class="p">(</span><span class="n">seqB</span><span class="p">)</span>
+<span class="n">tag_unigrams</span> <span class="o">=</span> <span class="n">unigram_counts</span><span class="p">(</span><span class="n">tags</span><span class="p">)</span>
 
 <span class="k">assert</span> <span class="nb">set</span><span class="p">(</span><span class="n">tag_unigrams</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span> <span class="o">==</span> <span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">tagset</span><span class="p">,</span> \
        <span class="s2">&quot;Uh oh. It looks like your tag counts doesn&#39;t include all the tags!&quot;</span>
@@ -13914,25 +13660,6 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[14]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div class="alert alert-block alert-success">Your tag unigrams look good!</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -13944,7 +13671,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">bigram_counts</span><span class="p">(</span><span class="n">sequences</span><span class="p">):</span>
@@ -13969,8 +13696,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
         <span class="n">t</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span> <span class="o">+</span> <span class="mi">1</span>
     <span class="k">return</span> <span class="n">t</span>
 
-<span class="c1"># TODO: call bigram_counts with a list of tag sequences from the training set</span>
-<span class="n">tag_bigrams</span> <span class="o">=</span> <span class="n">bigram_counts</span><span class="p">(</span><span class="n">seqB</span><span class="p">)</span>
+<span class="n">tag_bigrams</span> <span class="o">=</span> <span class="n">bigram_counts</span><span class="p">(</span><span class="n">tags</span><span class="p">)</span>
 
 <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">tag_bigrams</span><span class="p">)</span> <span class="o">==</span> <span class="mi">144</span><span class="p">,</span> \
        <span class="s2">&quot;Uh oh. There should be 144 pairs of bigrams (12 tags x 12 tags)&quot;</span>
@@ -13985,25 +13711,6 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[15]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div class="alert alert-block alert-success">Your tag bigrams look good!</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -14015,7 +13722,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">starting_counts</span><span class="p">(</span><span class="n">sequences</span><span class="p">):</span>
@@ -14038,7 +13745,6 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 
     <span class="k">return</span> <span class="n">t</span>
 
-<span class="c1"># TODO: Calculate the count of each tag starting a sequence</span>
 <span class="n">tag_starts</span> <span class="o">=</span> <span class="n">starting_counts</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">Y</span><span class="p">)</span>
 
 <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">tag_starts</span><span class="p">)</span> <span class="o">==</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;Uh oh. There should be 12 tags in your dictionary.&quot;</span>
@@ -14048,25 +13754,6 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[16]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div class="alert alert-block alert-success">Your starting tag counts look good!</div>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14081,7 +13768,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">ending_counts</span><span class="p">(</span><span class="n">sequences</span><span class="p">):</span>
@@ -14104,7 +13791,6 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 
     <span class="k">return</span> <span class="n">t</span>
 
-<span class="c1"># TODO: Calculate the count of each tag ending a sequence</span>
 <span class="n">tag_ends</span> <span class="o">=</span> <span class="n">ending_counts</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">Y</span><span class="p">)</span>
 
 <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">tag_ends</span><span class="p">)</span> <span class="o">==</span> <span class="mi">12</span><span class="p">,</span> <span class="s2">&quot;Uh oh. There should be 12 tags in your dictionary.&quot;</span>
@@ -14114,25 +13800,6 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[17]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div class="alert alert-block alert-success">Your ending tag counts look good!</div>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14165,13 +13832,10 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">basic_model</span> <span class="o">=</span> <span class="n">HiddenMarkovModel</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;base-hmm-tagger&quot;</span><span class="p">)</span>
-
-<span class="c1"># TODO: create states with emission probability distributions P(word | tag) and add to the model</span>
-<span class="c1"># (Hint: you may need to loop &amp; create/add new states)</span>
 
 <span class="n">tag_states</span> <span class="o">=</span> <span class="p">{}</span>
 <span class="k">for</span> <span class="n">tag</span> <span class="ow">in</span> <span class="n">emission_counts</span><span class="p">:</span>
@@ -14186,10 +13850,6 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
     <span class="n">tag_states</span><span class="p">[</span><span class="n">tag</span><span class="p">]</span> <span class="o">=</span> <span class="n">s</span>
     <span class="n">basic_model</span><span class="o">.</span><span class="n">add_states</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
 
-<span class="c1"># TODO: add edges between states for the observed transition frequencies P(tag_i | tag_i-1)</span>
-<span class="c1"># (Hint: you may need to loop &amp; add transitions</span>
-<span class="c1"># basic_model.add_transition()</span>
-
 <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tag_starts</span><span class="p">:</span>
     <span class="n">prob</span> <span class="o">=</span> <span class="n">tag_starts</span><span class="p">[</span><span class="n">t</span><span class="p">]</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">tag_starts</span><span class="p">)</span>
     <span class="n">basic_model</span><span class="o">.</span><span class="n">add_transition</span><span class="p">(</span><span class="n">basic_model</span><span class="o">.</span><span class="n">start</span><span class="p">,</span> <span class="n">tag_states</span><span class="p">[</span><span class="n">t</span><span class="p">],</span> <span class="n">prob</span><span class="p">)</span>
@@ -14198,7 +13858,6 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
     <span class="n">prob</span> <span class="o">=</span> <span class="n">tag_ends</span><span class="p">[</span><span class="n">t</span><span class="p">]</span><span class="o">/</span><span class="n">tag_unigrams</span><span class="p">[</span><span class="n">t</span><span class="p">]</span>
     <span class="n">basic_model</span><span class="o">.</span><span class="n">add_transition</span><span class="p">(</span><span class="n">tag_states</span><span class="p">[</span><span class="n">t</span><span class="p">],</span> <span class="n">basic_model</span><span class="o">.</span><span class="n">end</span><span class="p">,</span> <span class="n">prob</span><span class="p">)</span>
 
-<span class="c1">#print(tag_bigrams)</span>
 <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tag_bigrams</span><span class="p">:</span>
     <span class="n">t1</span><span class="p">,</span> <span class="n">t2</span> <span class="o">=</span> <span class="n">t</span>
     <span class="n">count_bigram</span> <span class="o">=</span> <span class="n">tag_bigrams</span><span class="p">[</span><span class="n">t</span><span class="p">]</span>
@@ -14221,29 +13880,10 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[18]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div class="alert alert-block alert-success">Your HMM network topology looks good!</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">hmm_training_acc</span> <span class="o">=</span> <span class="n">accuracy</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">X</span><span class="p">,</span> <span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">Y</span><span class="p">,</span> <span class="n">basic_model</span><span class="p">)</span>
@@ -14258,37 +13898,6 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>training accuracy basic hmm model: 97.52%
-testing accuracy basic hmm model: 96.14%
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[19]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div class="alert alert-block alert-success">Your HMM tagger accuracy looks correct! Congratulations, you've finished the project.</div>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14377,6 +13986,19 @@ testing accuracy basic hmm model: 96.14%
 <span class="n">nltk</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s1">&#39;brown&#39;</span><span class="p">)</span>
 <span class="n">training_corpus</span> <span class="o">=</span> <span class="n">nltk</span><span class="o">.</span><span class="n">corpus</span><span class="o">.</span><span class="n">brown</span>
 <span class="n">training_corpus</span><span class="o">.</span><span class="n">tagged_sents</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
     </div>
