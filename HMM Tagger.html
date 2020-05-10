@@ -13936,7 +13936,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 <span class="sd">    return a dictionary such that your_bigram_counts[(NOUN, VERB)] == 61582</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">t</span> <span class="o">=</span> <span class="p">{}</span>
-    <span class="n">tags</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">tagset</span>
+    <span class="n">tags</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">tagset</span>
     <span class="k">for</span> <span class="n">t1</span> <span class="ow">in</span> <span class="n">tags</span><span class="p">:</span>
         <span class="k">for</span> <span class="n">t2</span> <span class="ow">in</span> <span class="n">tags</span><span class="p">:</span>
             <span class="n">t</span><span class="p">[(</span><span class="n">t1</span><span class="p">,</span> <span class="n">t2</span><span class="p">)]</span> <span class="o">=</span> <span class="mi">0</span>
@@ -14006,7 +14006,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 <span class="sd">    dictionary such that your_starting_counts[NOUN] == 8093</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">t</span> <span class="o">=</span> <span class="p">{}</span>
-    <span class="n">tags</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">tagset</span>
+    <span class="n">tags</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">tagset</span>
     <span class="k">for</span> <span class="n">t1</span> <span class="ow">in</span> <span class="n">tags</span><span class="p">:</span>
         <span class="n">t</span><span class="p">[</span><span class="n">t1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
     
@@ -14071,7 +14071,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 <span class="sd">    dictionary such that your_starting_counts[DET] == 18</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">t</span> <span class="o">=</span> <span class="p">{}</span>
-    <span class="n">tags</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">tagset</span>
+    <span class="n">tags</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">tagset</span>
     <span class="k">for</span> <span class="n">t1</span> <span class="ow">in</span> <span class="n">tags</span><span class="p">:</span>
         <span class="n">t</span><span class="p">[</span><span class="n">t1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
     
@@ -14351,36 +14351,13 @@ Actual labels:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!!</span>jupyter nbconvert *.ipynb
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[21]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[&#39;[NbConvertApp] Converting notebook HMM Tagger.ipynb to html&#39;,
- &#39;[NbConvertApp] Writing 363520 bytes to HMM Tagger.html&#39;,
- &#39;[NbConvertApp] Converting notebook HMM warmup (optional).ipynb to html&#39;,
- &#39;[NbConvertApp] Writing 332482 bytes to HMM warmup (optional).html&#39;]</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14409,7 +14386,7 @@ Actual labels:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">nltk</span>
@@ -14422,38 +14399,6 @@ Actual labels:
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[nltk_data] Downloading package brown to /Users/eric/nltk_data...
-[nltk_data]   Package brown is already up-to-date!
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[25]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[[(&#39;The&#39;, &#39;AT&#39;), (&#39;Fulton&#39;, &#39;NP-TL&#39;), (&#39;County&#39;, &#39;NN-TL&#39;), (&#39;Grand&#39;, &#39;JJ-TL&#39;), (&#39;Jury&#39;, &#39;NN-TL&#39;), (&#39;said&#39;, &#39;VBD&#39;), (&#39;Friday&#39;, &#39;NR&#39;), (&#39;an&#39;, &#39;AT&#39;), (&#39;investigation&#39;, &#39;NN&#39;), (&#39;of&#39;, &#39;IN&#39;), (&#34;Atlanta&#39;s&#34;, &#39;NP$&#39;), (&#39;recent&#39;, &#39;JJ&#39;), (&#39;primary&#39;, &#39;NN&#39;), (&#39;election&#39;, &#39;NN&#39;), (&#39;produced&#39;, &#39;VBD&#39;), (&#39;``&#39;, &#39;``&#39;), (&#39;no&#39;, &#39;AT&#39;), (&#39;evidence&#39;, &#39;NN&#39;), (&#34;&#39;&#39;&#34;, &#34;&#39;&#39;&#34;), (&#39;that&#39;, &#39;CS&#39;), (&#39;any&#39;, &#39;DTI&#39;), (&#39;irregularities&#39;, &#39;NNS&#39;), (&#39;took&#39;, &#39;VBD&#39;), (&#39;place&#39;, &#39;NN&#39;), (&#39;.&#39;, &#39;.&#39;)], [(&#39;The&#39;, &#39;AT&#39;), (&#39;jury&#39;, &#39;NN&#39;), (&#39;further&#39;, &#39;RBR&#39;), (&#39;said&#39;, &#39;VBD&#39;), (&#39;in&#39;, &#39;IN&#39;), (&#39;term-end&#39;, &#39;NN&#39;), (&#39;presentments&#39;, &#39;NNS&#39;), (&#39;that&#39;, &#39;CS&#39;), (&#39;the&#39;, &#39;AT&#39;), (&#39;City&#39;, &#39;NN-TL&#39;), (&#39;Executive&#39;, &#39;JJ-TL&#39;), (&#39;Committee&#39;, &#39;NN-TL&#39;), (&#39;,&#39;, &#39;,&#39;), (&#39;which&#39;, &#39;WDT&#39;), (&#39;had&#39;, &#39;HVD&#39;), (&#39;over-all&#39;, &#39;JJ&#39;), (&#39;charge&#39;, &#39;NN&#39;), (&#39;of&#39;, &#39;IN&#39;), (&#39;the&#39;, &#39;AT&#39;), (&#39;election&#39;, &#39;NN&#39;), (&#39;,&#39;, &#39;,&#39;), (&#39;``&#39;, &#39;``&#39;), (&#39;deserves&#39;, &#39;VBZ&#39;), (&#39;the&#39;, &#39;AT&#39;), (&#39;praise&#39;, &#39;NN&#39;), (&#39;and&#39;, &#39;CC&#39;), (&#39;thanks&#39;, &#39;NNS&#39;), (&#39;of&#39;, &#39;IN&#39;), (&#39;the&#39;, &#39;AT&#39;), (&#39;City&#39;, &#39;NN-TL&#39;), (&#39;of&#39;, &#39;IN-TL&#39;), (&#39;Atlanta&#39;, &#39;NP-TL&#39;), (&#34;&#39;&#39;&#34;, &#34;&#39;&#39;&#34;), (&#39;for&#39;, &#39;IN&#39;), (&#39;the&#39;, &#39;AT&#39;), (&#39;manner&#39;, &#39;NN&#39;), (&#39;in&#39;, &#39;IN&#39;), (&#39;which&#39;, &#39;WDT&#39;), (&#39;the&#39;, &#39;AT&#39;), (&#39;election&#39;, &#39;NN&#39;), (&#39;was&#39;, &#39;BEDZ&#39;), (&#39;conducted&#39;, &#39;VBN&#39;), (&#39;.&#39;, &#39;.&#39;)], ...]</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
